@@ -1,4 +1,4 @@
-class Kimigayo < Formula
+class Gitviz < Formula
     desc "Visualize your local Git contributions like GitHub"
     homepage "https://github.com/anton-fuji/gitviz"
     url "https://github.com/anton-fuji/gitviz/archive/refs/tags/v0.1.0.tar.gz" 
@@ -6,7 +6,6 @@ class Kimigayo < Formula
   
     license "MIT"
   
-    # 依存ライブラリはここに記載しておく
     depends_on "go" => :build
   
     def install
