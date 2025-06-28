@@ -9,7 +9,7 @@ class Gitviz < Formula
     depends_on "go" => :build
   
     def install
-        system "go", "install", *std_go_args(ldflags: "-s -w")
+        system "go", "build", "-ldflags", "-s -w", "-o", bin/"gitviz", "."
     end
   
     test do
