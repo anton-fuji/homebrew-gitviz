@@ -1,8 +1,8 @@
 class Gitviz < Formula
     desc "Visualize your local Git contributions like GitHub"
     homepage "https://github.com/anton-fuji/gitviz"
-    url "https://github.com/anton-fuji/gitviz/archive/refs/tags/v0.1.2.tar.gz" 
-    sha256 "4f74c8fb5d6b2af7d4fc8086de02d558cc066f67fb722be1b23d71fdf0dc2c5b"
+    url "https://github.com/anton-fuji/gitviz/archive/refs/tags/v0.1.3.tar.gz" 
+    sha256 "b681126153b858aaef0ff2dd343467c2cbb463530f89377110ce9eef7645c73c"
   
     license "MIT"
   
